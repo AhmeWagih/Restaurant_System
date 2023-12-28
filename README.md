@@ -4,6 +4,8 @@ Restaurant System By Accembly
 This project appears to be a simple text-based menu program written in assembly language for an x86 architecture. It simulates a restaurant menu where the user can choose between breakfast items and drinks. The program displays various menu options, takes user input, calculates the total price based on the user's choices, and allows the user to go back to the main menu or exit.
 
 1-Data Section:
+
+
 Defines various strings (M1, M2, ..., M61) representing messages, menu items, and prompts.
 Defines variables (DRINK, QUANTITY) to store user input.
 
