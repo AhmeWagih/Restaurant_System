@@ -10,20 +10,13 @@ Defines various strings (M1, M2, ..., M61) representing messages, menu items, an
 Defines variables (DRINK, QUANTITY) to store user input.
 
 
-
 2-Code Section:
 
-
-
      -MAIN PROC:
-
-
      
                 Initializes the data segment.
                 Displays the main menu using DOS interrupts (INT 21H).
                 Takes user input for menu choice (BREATFAST, DRINKS, or INVALID) and performs the corresponding actions.
-
-
 
                 
      -BREATFAST:
@@ -33,15 +26,8 @@ Defines variables (DRINK, QUANTITY) to store user input.
                Calculates the total price based on the item and quantity.
                Allows the user to go back to the main menu.
 
-
-
-
-
                
      -DRINKS:
-
-
-
      
              Displays the drinks menu and takes user input for the chosen item and quantity.
              Calculates the total price based on the item and quantity.
@@ -49,26 +35,17 @@ Defines variables (DRINK, QUANTITY) to store user input.
              SOFTDRINK, HERBS, ESPRESSO, MOKA, COFFEE, TEA:
              Jumps to the COMMON section with a specific value for BL (item price).
 
-
-
              
      -COMMON:
-
-
      
              Calculates the total price based on the chosen item and quantity.
              Allows the user to go back to the main menu.
 
-
              
      -INVALID:
-
-
      
              Displays an error message for invalid input and prompts the user to try again.
 
-
-             
      -EXIT:
 
 
